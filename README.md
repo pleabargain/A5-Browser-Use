@@ -39,6 +39,11 @@ However, if this does not work or alternatively, you can follow these steps to s
    pip install -r requirements.txt
    ```
 5. Close Chrome, and start Chrome with remote debugging:
+
+```powershell
+Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "--remote-debugging-port=9222"
+```
+
    ```bash
    /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
    ```
